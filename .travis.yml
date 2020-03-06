@@ -4,3 +4,4 @@ compiler: gcc
 script:  
    - gcc -o file file.c  
    - ./file  
+   - coverage run test.c
